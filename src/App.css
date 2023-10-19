@@ -1,6 +1,7 @@
 body{
-  background-color: rgb(255, 216, 235);
-
+  /* background-color: rgb(255, 216, 235); */
+  background-image: url('../public/G56534_1200x1200.webp'
+);
   
 
 
@@ -73,3 +74,4 @@ button[disabled]{
   background-color: #cccccc;
   color: #666666;
 }
+
