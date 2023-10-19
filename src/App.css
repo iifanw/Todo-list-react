@@ -1,3 +1,75 @@
-.odd{
+body{
+  background-color: rgb(255, 216, 235);
+
+  
+
+
+  
+}
+.App{
+  display: flex;
+  width: auto;
+  height: 100vh;
+  justify-content:center;
+  align-items: center;
+  
+}
+.container{
+ 
+  background-color:rgb(255, 249, 188);
+  width: 500px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ justify-content:flex-start;
+ align-items: center;
+}/* .odd{
   background-color: red;
+} */
+.App h1{
+ 
+  font-size: 4em;
+  font-family: 'Gajraj One', sans-serif;
+  color: rgb(181, 160, 255);
+  text-shadow: 0px 6px 6px aqua; 
+ 
+}
+
+.filter{
+ width: 250px;
+  align-self: flex-end;
+}
+
+.todo-item{
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  padding: 10px;
+}
+ 
+button {
+  font-family: inherit;
+  border:none;
+  /* outline: 1px dotted rgb(37, 37, 37); */
+  outline: 1px dotted hotpink;
+  outline-offset: -4px;
+  color: hotpink;
+  background-color: rgb(255, 199, 208);
+  /* background: hsl(0deg 0% 75%); */
+  box-shadow: inset -1px -1px #292929, inset 1px 1px #fff, inset -2px -2px rgb(158, 158, 158), inset 2px 2px #ffffff;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 5px 10px;
+}
+
+button:active {
+  box-shadow: inset -1px -1px #fff, inset 1px 1px #292929, inset -2px -2px #ffffff, inset 2px 2px rgb(158, 158, 158);
+}
+
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
 }
